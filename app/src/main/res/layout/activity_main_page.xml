@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/background"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:weightSum="1">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="472dp"
+                android:id="@+id/mainPagePosts" />
+
+    </LinearLayout>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="136dp"
+        android:layout_height="40dp"
+        android:text="Add Request"
+        android:id="@+id/postRequestButton"
+        android:onClick="onClickPostRequest"
+        android:background="@drawable/watchdog_button_medium"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>

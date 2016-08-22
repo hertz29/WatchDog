@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_requests"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Requests" />
+        <item android:id="@+id/nav_adoption"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="Adoption" />
+        <item android:id="@+id/nav_benefits"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Benefits" />
+    </group>
+
+    <item android:title="other options">
+        <menu>
+            <item android:id="@+id/nav_profile"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="My Profile" />
+            <item android:id="@+id/nav_postRequest"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Post Request" />
+            <item android:id="@+id/nav_msg"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Messages" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:text=""
+        android:layout_gravity="right"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:onClick="GoToUserButtom"
+        android:id="@+id/MainPagePostRowPostButtom"
+        android:background="@drawable/watchdog_button_medium"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/MainPagePostRowPost"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_weight="1.07" />
+
+
+</LinearLayout>

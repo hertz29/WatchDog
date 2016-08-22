@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_horizontal"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_weight="0.68">
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="49dp"
+            android:text=""
+            android:background="@drawable/watchdog_button_medium"
+            android:onClick="GoToUserButtom"
+            android:id="@+id/UserPageRowButtom"
+            />
+        <LinearLayout
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="36dp"
+                android:gravity="center"
+                android:layout_height="30dp"
+                android:id="@+id/ratingView"
+                android:background="@drawable/circle"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.81">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:text=""
+            android:id="@+id/UserPageReview"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:layout_weight="0.45" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
